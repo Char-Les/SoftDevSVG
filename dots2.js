@@ -33,7 +33,7 @@ const clear = function(){
   start = true;
   // while there are children, remove a child
   while(pic.children.length)
-    pic.removeChild();
+    pic.firstChild.remove();
 }
 
 // draw function
